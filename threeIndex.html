@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跳一跳</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        #score {
+            font-size: 50px;
+            color: #fff;
+            position: fixed;
+            top: 10%;
+            left: 10%;
+        }
+        #fail {
+            position: fixed;
+            background: rgba(0,0,0,0.5);
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            font-size: 70px;
+            color: #fff;
+            padding-left: 40%;
+            padding-top: 200px;
+            display: none;
+        }
+    </style>
+    <script src="https://www.unpkg.com/three@0.154.0/build/three.js"></script>
+</head>
+<body>
+    <div id="score">0</div>
+    <div id="fail">您的分数为<span id="score2">0</span></div>
+    <script src="./main.js"></script>
+</body>
+</html>
