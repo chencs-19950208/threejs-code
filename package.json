@@ -1,0 +1,31 @@
+{
+  "name": "three-code",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.19.10",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.32",
+    "require.js": "^1.0.0",
+    "rollup": "^4.9.1",
+    "source-map-js": "^1.0.2",
+    "three": "^0.159.0",
+    "vite": "^5.0.10"
+  },
+  "scripts": {
+    "start": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chencs-19950208/threejs-code.git"
+  },
+  "author": "chencs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chencs-19950208/threejs-code/issues"
+  },
+  "homepage": "https://github.com/chencs-19950208/threejs-code#readme"
+}
